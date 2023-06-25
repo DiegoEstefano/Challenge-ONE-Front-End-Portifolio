@@ -1,0 +1,136 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.experience__section__title {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.experiencie__box {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 752px;
+    margin-bottom: 60px;
+
+}
+
+
+
+.experience__title {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.experience__text {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.experience__description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.experiencia__botao--repo {
+    height: 40px;
+    width: 108px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 12px 16px 12px 16px;
+    border: solid 1px var(--border-azul);
+    color: var(--border-azul);
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 16px;
+}
+
+.experiencia__botao--demo {
+    height: 40px;
+    width: 96px;
+    left: 124px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 12px 16px 12px 16px;
+    background-color: var(--border-azul);
+    border: none;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+@media (max-width: 428px) {
+    .experience__img {
+        max-width:  296px
+    }
+}
+@media (min-width: 428px) {
+    .experience__img {
+        max-width:  296px
+    }
+}
+@media (min-width: 768px) {
+    .experience__img {
+        max-width:  704px
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .experience__img {
+        max-width:  752px;
+       height:  402px
+    }
+
+    .experiencie__box {
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .experiencie__box:nth-child(2n+1) {
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .experience__info {
+        margin-right: 5rem;
+    }
+
+    .experience__img:nth-child(2n+1) {
+       margin-right: 2rem;
+    }
+}

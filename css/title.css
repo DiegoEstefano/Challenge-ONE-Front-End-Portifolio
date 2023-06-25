@@ -1,0 +1,125 @@
+.title__profile {
+    width: 98px;
+   
+    margin-bottom: 16px;
+}
+
+.title__bio {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.title__subsection {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+
+.title__network {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+
+@media (min-width: 425px) {
+    .title__div {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .title__profile {
+    
+        width: 146px;
+        left: 588px;
+        border-radius: 0px;
+    }
+
+    .title__container {
+        width: 524px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+    }
+
+    .title__bio {
+        margin-bottom: 8px;
+    }
+
+    .title__subsection {
+        margin-bottom: 8px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    .title__profile {
+        width: 368px;
+        left: 768px;
+        top: 0px;
+        border-radius: 0px;
+        margin-bottom: 32px;
+    }
+
+    .title__div {
+        justify-content: space-around
+    }
+
+    .title__container {
+       
+        width: 751px;
+        left: 0px;
+        top: 0px;
+        border-radius: nullpx;
+
+    }
+
+    .title__bio {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 61px;
+    }
+
+    .title__subsection {
+        font-family: Raleway;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .title {
+        margin: 0 auto;
+        width: 80vw;
+    }
+
+    .title__network {
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 26px;
+        justify-content: flex-start;
+    }
+    .title__network img{
+        margin-right: 32px;
+    }
+}
